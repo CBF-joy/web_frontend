@@ -68,7 +68,7 @@ const Donate = (props) =>  {
 					
                     notification.success({
                         message: '전시해',
-                        description: "기부 감사합니다!",
+                        description: "후원 감사합니다!",
                     })
                 })
 
@@ -88,7 +88,7 @@ const Donate = (props) =>  {
       
       <div>
 			
-<DialogTitle>기부하기</DialogTitle>
+<DialogTitle>후원하기</DialogTitle>
 			<DialogContent>
 				<DialogContentText>
 					<div>
@@ -127,7 +127,7 @@ const Donate = (props) =>  {
                   value={inputprice}
                   onChange={(e) => setPrice(e.target.value)} />
 					{'  '}
-								<Button type="primary" size="large" className="donateButton" onClick={(e)=>donate()}>기부하기</Button>
+								<Button type="primary" size="large" className="donateButton" onClick={(e)=>donate()}>후원하기</Button>
 					</DialogContent>
 
 		
