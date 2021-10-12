@@ -291,7 +291,7 @@ const Viewer = (props) => {
                     </div>
                
                <div className="child_2">
-                  <Button type="primary" size="medium" onClick={(e)=>handleClickOpen()}>기부하기</Button>
+                  <Button type="primary" size="medium" onClick={(e)=>handleClickOpen()}>후원하기</Button>
                   <Dialog className="dialog" open={open} centered onClose ={()=>setOpen(false)} >
                      <Donate e_title={exhibition.title} painting={painting} sponsor={exhibition.sponsor} address={props.address}/>
                      
