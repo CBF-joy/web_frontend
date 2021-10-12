@@ -149,7 +149,7 @@ useEffect(() => {
 
             },
 				 {
-              title: '기부금액',
+              title: '후원금액',
               dataIndex: 'klay',
               key: 'klay',
 					 render: klay =>(
@@ -167,7 +167,7 @@ useEffect(() => {
 
           ];
 	
-	//내 수익(기부금액의 일부)
+	//내 수익(금액의 일부)
 	const columns1 = [//수정해야함!
             {
               title: '전시회',
@@ -279,7 +279,7 @@ useEffect(() => {
                     <div className="shippingStatusContainer_profile">
                             <div className="favTable_container_profile">
                                 <div class="title_profile">
-                                내 기부 내역
+                                내 후원 내역
                                 </div>
                                      
 
