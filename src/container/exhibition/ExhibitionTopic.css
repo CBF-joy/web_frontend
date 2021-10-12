@@ -1,0 +1,48 @@
+.topic-container{
+    width: 100%;
+    height: 100%;  
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5rem;
+    text-align: center;
+    float: left;
+}
+.topic-container  .topic-header{
+    border-radius: 0.5rem;
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    width: 100%;
+    height: 7%;
+    background-color: #3353d5e0;
+    color:white;
+    margin-bottom:10px;
+    text-align: center;
+    font-weight:bold;
+    text-align:middle;
+    padding: 7px 0px;
+}
+
+.topic-container  .topic-img{
+    width: 100px;
+    height: 100px;
+    margin:10px;
+    padding-left:10px;
+    margin-top:0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.topic-container  .topic-fundraisingamount{
+    border-radius: 0.5rem;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    /* width: 100%;
+    height: 7%; */
+    background-color: white;
+    color:#a4cbf8;
+    border-color: #000000;
+    border-width: 10px;
+    text-align: center;
+    font-weight:bold;
+    text-align:middle;
+    padding: 7px 0px;
+}

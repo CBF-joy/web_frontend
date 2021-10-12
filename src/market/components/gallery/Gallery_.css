@@ -1,0 +1,26 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.exhibition{
+    align-content: center;  
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.exhibition-topic{
+    align-content: center; 
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.exhibition-image{
+    align-content: center;  
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.exhibition-comment{  
+    align-content: center;  
+    padding-top:10px;
+    padding-bottom: 10px;
+}

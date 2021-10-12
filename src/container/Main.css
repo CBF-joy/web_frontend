@@ -1,0 +1,18 @@
+.main{
+	flex-direction: column;
+	display: flex;
+}
+
+.topic-content{
+
+	text-align: center;
+	padding-bottom : 15%;
+}
+
+/* .main  .token-content{
+    padding-right: 5%;
+    flex:1;
+    width:35%;
+    float:right;
+	height : 50% ;
+} */

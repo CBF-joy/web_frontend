@@ -1,0 +1,108 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+
+.wrap_viewer{
+    margin: 0 auto;
+    width:1000px;
+    height:100%;
+    text-align:center;
+	border-width: 1px;
+	border-type: solid;
+	border-color: red;
+}
+
+.top_viewer{
+    font-size:1.2rem;
+    height:140px;
+    background-color:#337ce140;
+    padding:60px;
+    margin-bottom:30px;
+    border-bottom: 1px solid lightgray;
+	text-align: center;
+}
+
+.wrap_images{
+    text-align: center;
+}
+img{
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.comment_container{
+    margin: 0 auto;
+    padding-bottom:50px;
+    
+}
+
+.rating_container{
+    margin-bottom:20px;
+}
+
+.rating_container Button{
+    margin-left : 10px;
+}
+.editForm-container{
+    margin-top:30px;
+}
+
+.avgRate{
+    font-family: "Nanum Gothic";
+    font-size:1rem;
+    padding :5px;
+    
+}
+
+.avgStar{
+
+    float:left;
+    margin-bottom: 100px;
+}
+
+.dialog {
+    margin: auto;
+    font-family: "Nanum Gothic";
+
+}
+
+.dialogContent {
+    font-family: "Nanum Gothic";
+    width: 450px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dialogTXT {
+    font-family: "Nanum Gothic";
+    padding: 10px;
+}
+
+.dialogTXT2 {
+    font-family: "Nanum Gothic";
+    color:gray;
+    padding: 10px;
+}
+.exhibition-image{
+    align-content: center;  
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.parent{
+ display: flex;
+}
+
+.child_1{
+	flex-direction: column;
+	display: flex;
+	flex: 3;
+	text-align: left;
+}
+.child_2{
+	flex: 1;
+	text-align: right;
+
+}

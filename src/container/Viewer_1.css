@@ -1,0 +1,27 @@
+.viewer{
+    align-content: center;  
+    padding-left: 10%;
+    padding-right: 10%;
+	padding-bottom: 15%;
+}
+
+.viewer_title{
+    align-content: left; 
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+	font-size: 1.5rem;
+}
+
+.viewer_image{
+    align-content: center;  
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.viewer_description{
+	align-content: left; 
+    text-align: center;
+    padding-top:5px;
+    padding-bottom: 10px;
+	font-size: 1rem;
+}

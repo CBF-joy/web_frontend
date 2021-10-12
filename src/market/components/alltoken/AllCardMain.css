@@ -1,0 +1,23 @@
+.card-container{
+    height: 300px;
+    width: 350px;
+    margin: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5rem;
+    text-align: left;
+    float: left;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+}
+.card-container_mobile{
+    height: 370px;
+    width: 260px;
+    margin: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5rem;
+    text-align: left;
+    float: left;
+
+}

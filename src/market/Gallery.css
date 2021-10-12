@@ -1,0 +1,30 @@
+
+.exhibition{
+    align-content: center;  
+    padding-left: 10%;
+    padding-right: 10%;
+	max-width: 80%;
+	align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-family: "Nanum Gothic";
+}
+
+.exhibition-topic{
+    align-content: center; 
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.exhibition-image{
+    align-content: center;  
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.exhibition-comment{  
+    align-content: center;  
+    padding-top:10px;
+    padding-bottom: 10px;
+}

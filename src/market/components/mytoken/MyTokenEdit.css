@@ -1,0 +1,8 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.mytokenedit-container {
+    margin: 0 auto;
+    margin-top: 40px;
+    font-family: "Nanum Gothic";
+    margin-bottom:50px;
+}

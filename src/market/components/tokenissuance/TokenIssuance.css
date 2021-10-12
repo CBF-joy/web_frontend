@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.new-container {
+    max-width: 420px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-family: "Nanum Gothic";
+    margin-bottom:50px;
+}
+
+.newAddButton {
+    width: 100%;
+}
+
+.greenContainer{  
+    height: 7px;
+    background-color: #337ce140;    
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+  }
+
+  .TokenContainer{
+    padding: 21px 16px;
+    background-color: white;
+    height:100%;
+  }
+  
+  /* 주문/배송조회 타이틀 */
+  .TokenContainer .title{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .main-container {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    gap: 1000px; /* 자식요소간의 간격 */
+}

@@ -1,0 +1,69 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+.ant-modal-content{
+    justify-content: center;
+    align-items: center;
+}
+
+.ant-modal-body {
+    padding: 50px;
+    font-size: 14px;
+    line-height: 1.8;
+    word-wrap: break-word;
+}
+
+
+.modalartist{
+    margin-top: 30px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.modaltitle{
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.modalCreatedDate{
+    text-align: center;
+    vertical-align: top;
+}
+
+.dialogTXT{
+    line-height: 2.0;
+    padding-right: 5%;
+    margin-inline-end: 10px;
+}
+
+.modal_container{
+    height:fit-content;
+	justify-content:center;
+	align-items:center
+}
+
+.modal_container_detail{
+    height:100px;
+    justify-content: center;
+}
+
+.modal_container_detail2{
+    height:100px;
+    justify-content: center;
+}
+
+
+
+.ant-calendar-picker {
+    width: fit-content;
+}
+
+/* .modal_container {
+    height:30%;
+    object-fit: contain;
+  } */
+
+  img {
+    max-width: 100%;
+    object-fit:contain;
+  }
+  

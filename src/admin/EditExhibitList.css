@@ -1,0 +1,17 @@
+.editList-container {
+    margin: 0 auto;
+    margin-top: 40px;
+    font-family: "Nanum Gothic";
+    margin-bottom:50px;
+}
+
+.editList-container_mobile {
+    margin: 0 auto;
+    margin-top: 40px;
+    font-family: "Nanum Gothic";
+    margin-bottom:50px;
+}
+@media (max-width: 768px) {
+.ant-table table {font-size: 7px;}
+	
+}

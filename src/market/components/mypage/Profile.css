@@ -1,0 +1,335 @@
+.password__show {
+  right: 8px;
+  z-index: 2;
+}
+.box1 {
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+  text-align: center;
+}
+.box2 {
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  text-align: center;
+}
+.main-container {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  gap: 1000px; /* 자식요소간의 간격 */
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+div{
+  box-sizing: border-box;
+}
+
+/* alert badge */
+.circle{
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  background-color: #ff0000;
+  position: absolute;
+  top: -5px;
+  left: 110%;
+}
+
+/* 녹색 텍스트 */
+.green_profile{
+  color: #24855b;
+}
+
+.wrap_profile{
+  background-color: #F8F8F8;  
+}
+/* 녹색배경 */
+.greenContainer_profile{  
+  height: 7px;
+  background-color: #337ce140;    
+  
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.greenContainer_profile .name{
+   font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+} 
+.greenContainer_profile .modify{
+  margin-left: auto;
+}
+
+.summaryContainer_profile{
+  background-color: white;  
+  display: flex;  
+  padding: 21px 16px;  
+  height: 90px;
+  margin-bottom: 10px;
+}
+
+.summaryContainer_profile .item_profile{
+  flex-grow: 1
+}
+/* 녹색 숫자 */
+.summaryContainer_profile .number_profile{
+  font-size: 19px;
+  font-weight: bold;
+  color: #24855b;
+}
+/* 텍스트 */
+.summaryContainer_profile .item_profile > div:nth-child(2){
+  font-size: 13px;
+}
+
+.shippingStatusContainer_profile{
+  padding: 21px 16px;
+  background-color: white;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.shippingStatusContainer_profile .title_profile{
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.shippingStatusContainer_profile .status_profile{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 21px;
+}
+
+.shippingStatusContainer_profile .item_profile{
+  flex-grow: 1
+}
+
+.shippingStatusContainer_profile .number_profile{
+  font-size: 31px;
+  font-weight: 500;
+  text-align: center;
+}
+.shippingStatusContainer_profile .text_profile{
+  font-size: 15px;
+  font-weight: normal;
+  color: #c2c2c2;
+  text-align: center;
+}
+.shippingStatusContainer_profile .icon_profile{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 16px;
+  height: 16px;
+}
+
+
+.listContainer_profile{  
+  padding: 0;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+.listContainer_profile .item_profile{  
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  color: black;
+  text-decoration: none;  
+  height: 56px;
+  box-sizing: border-box;
+}
+.listContainer_profile .icon_profile{  
+  margin-right: 14px;
+}
+.listContainer_profile .text_profile{
+  font-size: 16px;
+  position: relative;
+  flex-grow: 1;
+}
+.listContainer_profile .right_profile{
+  margin-left: auto;
+}
+
+
+.listContainer_profile .smallLight{
+  font-size: 14px;
+  color: #c2c2c2;  
+}
+.listContainer_profile .smallLight > span{
+  margin-left: 10px;
+}
+
+.listContainer_profile .right_profile .blct{
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+
+.infoContainer_profile{
+  background-color: white; 
+  display: flex;
+  height: 100px;
+  margin-bottom: 10px;    
+}
+
+.infoContainer_profile .item_profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+}
+.infoContainer_profile .item_profile > div:first-child{
+  margin-bottom: 2px;
+}
+
+.button_profile{
+  align-items: flex-end;
+}
+.ProfileContainer{
+    padding: 21px 16px;
+    background-color: white;
+    margin-bottom: 10px;
+    height:280px;
+    text-align: center;
+  }
+  
+  /* 주문/배송조회 타이틀 */
+  .ProfileContainer .title{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+  }
+  
+  /* 장바구니 결제완료 배송중 구매확정 [로우] */
+  .ProfileContainer .status{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 21px;
+  }
+  /* 장바구니 결제완료 배송중 구매확정 [아이템]  */
+  .ProfileContainer .item{
+    flex-grow: 1
+  }
+  
+  .ProfileContainer .number{
+    font-size: 31px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .ProfileContainer .text{
+    font-size: 20px;
+    position: relative;
+    flex-grow: 1;
+    text-align:left;
+    margin-left:50px;
+  }
+  .ProfileContainer .left{
+    font-size: 15px;
+    margin-left: 50px;
+  }
+  .ProfileContainer .right1{
+    font-size: 15px;
+    margin-right: 60px;
+    color: #8d8d8d;
+    text-align: right;
+  }
+  .ProfileContainer .right2{
+    font-size: 15px;
+    margin-right: 0px;
+    color: black;
+    text-align: right;
+  }
+ .ProfileContainer .right2_mobile{
+    font-size: 10px;
+    margin-right: 0px;
+    color: grey;
+    text-align: right;
+  }
+  .ProfileContainer .icon{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 16px;
+    height: 16px;
+  }
+.user-avatar-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    line-height: 60px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.user-avatar-circle_mobile {
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+    line-height: 80px;
+    margin-left: 40px;
+    margin-top: 20px;
+	font-size: 30px;
+}
+  .user-avatar-circle > * {
+    line-height: 120px;
+    font-size: 40px;
+    position: relative !important;
+    left: 0 !important;
+}
+    .user-avatar, .user-summary {
+        float: left;
+        text-align: left;
+    }
+
+
+/*  */
+.listContainer_profile .item_profile:hover{
+/*   background-color: #f8f8f8; */
+}
+.infoContainer_profile .item_profile:hover{
+/*   background-color: #f8f8f8; */
+}
+
+  .listContainer{  
+    padding: 10px;
+    background-color: #ffffff;
+    margin-bottom: 0px;
+  }
+  .listContainer .item{  
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    color: black;
+    text-decoration: none;  
+    height: 56px;
+    box-sizing: border-box;
+  }
+  .listContainer .icon{  
+    margin-right: 14px;
+  }
+  .listContainer .text{
+    font-size: 16px;
+    position: relative;
+    flex-grow: 1;
+    text-align:left;
+    margin-left:50px;
+  }
+  .listContainer .right1{
+    margin-left: 50px;
+    text-decoration: line-through;
+    color: #8d8d8d;
+  }

@@ -1,0 +1,14 @@
+.app-content {
+  margin-top:64px;
+  margin-left:200px; 
+  padding:30px;
+  width:80%;
+  align-self:center;
+}
+.app-content_mobile {
+  margin-top:64px;
+  margin-left :2px;
+  padding:20px;
+  width:100%;
+  align-self:center;
+}
